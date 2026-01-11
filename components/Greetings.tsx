@@ -1,13 +1,7 @@
 import { View, Text, FlatList, StyleSheet } from "react-native";
 
-interface UserProps {
-  id: number;
-  name: string;
-  age: number;
-  isLoggedIn: boolean;
-}
 
-export default function Greetings({ users }: { users: UserProps[] }) {
+export default function Greetings({ users }) {
   return (
     <View style={styles.container}>
       <FlatList
