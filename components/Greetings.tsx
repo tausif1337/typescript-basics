@@ -1,6 +1,5 @@
 import { View, Text, FlatList, StyleSheet } from "react-native";
 
-
 export default function Greetings({ users }) {
   return (
     <View style={styles.container}>
